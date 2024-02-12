@@ -570,28 +570,46 @@ select{
   
   }
 
-  #Contato{
+ #Contato{
     background-color: var(--Backgroud3);
   }
 
 
+#contato .container{
+    justify-content: space-between;
+    margin: 0;
+}
 
+.contatos{
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    width: 200px;
+    position: relative;
+    align-items: first baseline;
+}
 
+#text{
+    height: 200px;
+    width: 300px;
 
+}
 
-
-
+.contatos-online{
+    width: 100%;
+    margin: 10px;
+    position: GFBHJSRFGJMN;
+}
 
 
 
 
 
   footer{
-    position: relative;
     padding: 0px;
     background-color: var(--navy);
     width: 99vw;
-    height: 150px;
+    height: 18vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -601,39 +619,15 @@ select{
 footer h4{
     font-size: 20px;
     font-weight: 100;
+    margin: 0%;
+}
+
+footer span {
     font-family: var(--titulo);
-}
-
-.social{
-    display: flex;
-}
-
-.social a{
-    font-size: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--amarelo_Mostarda);
-    border-radius: 50%;
     color: white;
-    text-decoration: none;
-    font-size: 20px;
 }
 
-.social a:hover{
-    transform: scale(1.3);
-    transition: .3;
-}
-
-.fim{
-    position: absolute;
-    color: rgb(221, 212, 167);
-    bottom: 35px;
-    font-size: 14px;
-    text-align: center;
-    align-items: center;
-    right: 44%;
-    font-weight: bolder;
-    font-size: 15px;
-    letter-spacing: 1px;
+small{
+    font-style: italic;
+    text-decoration: underline;
 }
