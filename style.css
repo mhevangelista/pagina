@@ -579,23 +579,35 @@ select{
  #Contato{
     background-color: var(--Backgroud3);
   }
+  
+.contato_{
+      justify-content: space-around;
+      height: 850px;
+  }
 
 .contatos{
     justify-content: start;
     flex-direction: column;
     padding: 0;
-    width: 500px;
+    width: 790px;
+    height: 500px;
     position: relative;
     align-items: start;
     margin: 10px;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: var(--backgroud2);
 }
 
-.contato_{
-    justify-content: space-around;
-}
 
 .contatos >h4{
     font-family: var(--titulo);
+    margin-left: 15px;
+    
+}
+
+.contatos > p{
+    margin: 15px;
 }
 
 .contatos > input{
@@ -603,7 +615,7 @@ select{
     border: none;
     padding: 1rem;
     font-size: 1rem;
-    width: 15em;
+    width: 300px;
     border-radius: 1rem;
     color: var(--laranja);
     box-shadow: 0 0.4rem #dfd9d9;
@@ -613,13 +625,40 @@ select{
 }
 
 #text{
-    height: 200px;
-    width: 500px;  
-    align-items: start;
+    background-color: #eee;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 710px;
+    height: 140px;
+    resize: none;
+    border-radius: 1rem;
+    color: var(--laranja);
+    box-shadow: 0 0.4rem #dfd9d9;
+    cursor: text;
+    margin: 15px;
 }
 
+#enviar{
+    width: 200px;
+}
+
+#enviar:hover{
+    background-color: var(--laranja);
+    color: white;
+    box-shadow: 0 0.4rem #ba5726;
+    cursor: pointer;
+}
+
+.online{
+    width: 300px;
+    height: 200px;
+    align-items:  center;
+} 
+
 .contato-icone{
-    justify-content: center;
+    justify-content: center
+     ;
     left: 0;
 }
 
